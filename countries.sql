@@ -1,6 +1,4 @@
-DROP TABLE IF EXISTS countries;
-
-CREATE TABLE countries (
+CREATE TABLE IF NOT EXISTS countries (
         id INT4 PRIMARY KEY,
         name VARCHAR(36) NOT NULL,
         iso2 VARCHAR(2) NOT NULL,
